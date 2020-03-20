@@ -1,19 +1,31 @@
-# Kodilla excercise with express.js No1
+# Chat app
 
-The Random Id generator exported as [Node.js](http://https://nodejs.org/en/ 'Node.js') module.
-
-Random Id generator is a function that takes one argument (number) end return pseudo random id of given length string.
-
-## Installation
-
-First clone repo.
-Next:
-`npm install`
-And then run:
-`node server.js`
+#### Tech stack: Node.js, Express.js, Js
 
 This app creates 3 endpoints and serving html files on those endpoints.
+
 "/" and "/home" - home.html
+
 "/about" - about.html
+
 "/user/\*" - access denied - authentication
+
 else - 404.html
+
+Not deployed.
+
+#### Installation
+
+First clone repo.
+
+Next in root folder:
+
+`npm install` - this will install all dependencies
+
+And then run:
+
+`node server.js` - this will start Node server with app.
+
+And in the browser:
+
+`http://localhost:3000/`
